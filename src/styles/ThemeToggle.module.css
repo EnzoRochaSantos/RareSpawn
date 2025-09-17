@@ -1,0 +1,22 @@
+/* src/styles/ThemeToggle.module.css */
+.toggleButton {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.toggleButton:hover {
+  background-color: var(--accent-secondary);
+}
+
+/* Adicione esta regra para garantir que o ícone tenha a cor correta */
+.icon {
+  color: var(--text-primary);
+}

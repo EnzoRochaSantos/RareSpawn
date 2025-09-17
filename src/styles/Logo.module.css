@@ -1,0 +1,15 @@
+.logoContainer {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.rare {
+  color: var(--accent-secondary);
+}
+
+.spawn {
+  color: var(--accent-primary);
+}

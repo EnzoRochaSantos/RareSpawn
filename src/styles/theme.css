@@ -1,0 +1,35 @@
+/* src/theme.css */
+
+/* :root define as variáveis para o tema padrão (Light Mode) */
+:root {
+  --background-primary: #fafafa; /* pastel.light */
+  --card-background: #ffffff;
+  --text-primary: #2b2b2b; /* pastel.dark */
+  --text-secondary: #7a7a7a; /* pastel.gray */
+  --accent-primary: #d8c2f4; /* pastel.lilac */
+  --accent-secondary: #c2dff4; /* pastel.blue */
+  --button-background: #2b2b2b;
+  --button-text: #fafafa;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --border-color: #eaeaea;
+}
+
+/*data-theme="dark"*/
+[data-theme="dark"] {
+  --background-primary: #0f0f0f; /* premium.dark */
+  --card-background: #1e1e1e; /* premium.card */
+  --text-primary: #fafafa; /* premium.light */
+  --text-secondary: #7a7a7a; /* premium.gray */
+  --accent-primary: #f48fb1; /* premium.pink */
+  --accent-secondary: #90caf9; /* premium.blue */
+  --button-background: #2c2c2c; /* premium.border */
+  --button-text: #fafafa;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+  --border-color: #2c2c2c;
+}
+
+body {
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

@@ -1,0 +1,51 @@
+.base {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition-property: background-color, border-color, color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.solid {
+  background-color: var(--button-background);
+  color: var(--button-text);
+}
+
+.solid:hover {
+  opacity: 0.85;
+}
+
+.outline {
+  background-color: transparent;
+  border-color: var(--button-background);
+  color: var(--button-background);
+}
+
+.outline:hover {
+  background-color: var(--button-background);
+  color: var(--button-text);
+}
+
+.ghost {
+  background-color: transparent;
+  color: var(--text-secondary);
+}
+
+.ghost:hover {
+  background-color: var(--card-background);
+  color: var(--text-primary);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
