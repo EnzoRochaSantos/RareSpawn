@@ -4,7 +4,7 @@
 
 Este projeto é uma loja virtual de consoles raros, a "RareSpawn". Foi criado como um exercício para implementar a mesma interface utilizando quatro abordagens de estilização diferentes em React.
 
-![Preview da Loja](../RareSpawn/src/assets/images/RareSpawn.jpg)
+![Preview da Loja](https://github.com/EnzoRochaSantos/RareSpawn/blob/main/src/assets/images/RareSpawn.jpg?raw=true)
 
 ---
 
